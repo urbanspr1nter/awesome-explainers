@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# WSL/Windows NTFS Zone.Identifier artifacts
+# (alternate-data-stream files created when files are copied from Windows into WSL)
+*:Zone.Identifier
+*:Zone.Identifier:$DATA
+*:Zone.Identifier:$DATA:*
